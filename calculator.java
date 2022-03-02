@@ -8,7 +8,7 @@ class Window  implements ActionListener{
     float first = 0;
     Window(){
         JFrame f = new JFrame("Calculator");
-        lb = new JLabel("", SwingConstants.RIGHT);
+        lb = new JLabel(" ", SwingConstants.RIGHT);
 
         bC = new JButton("C");
 
@@ -32,7 +32,7 @@ class Window  implements ActionListener{
         bE = new JButton("=");
         bA = new JButton("+");
 
-        lb.setBounds(0, 0, 400, 100);
+        lb.setBounds(0, 0, 380, 100);
         lb.setFont(new Font("Verdana", Font.PLAIN, 26));
         Font font = new Font("Verdana", Font.PLAIN, 22);
         b7.setFont(font);
